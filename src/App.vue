@@ -90,7 +90,7 @@ const handleTransactionSubmit = function (data) {
 
 const handleDelete = function (id) {
   transactions.value = transactions.value.filter((item) => item.id !== id);
-  toast.success("Transaction deleted");
+  toast.error("Transaction deleted");
   saveToLocalStorage();
 };
 
