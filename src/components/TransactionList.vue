@@ -18,7 +18,7 @@
 import { defineProps } from "vue";
 const emit = defineEmits(["deleteTransaction"]);
 // export default {
-// options-api
+// // options-api
 //   data() {
 //     return {
 //       transactions: [
